@@ -3,14 +3,16 @@
   --title-text-color: #212121;
   --accent-color: #3c9b3c; 
   --primary-bg-color: #ffffff;
-  --accent-bg-color: #38190d;
+  --accent-bg-color: linear-gradient(to bottom, rgb(21, 151, 190) 50%, rgb(218, 221, 26) 50%);
+  /* --accent-bg-color: linear-gradient(rgb(21, 151, 190) 50%, rgb(218, 221, 26) 50%); */
+  /* --accent-bg-color: rgb(14, 90, 48); */
 }
 
 body {
   color: var(--primary-text-color);
   background-color: #f3f5f8;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: normal;
   line-height: 1.7;
@@ -57,10 +59,10 @@ p {
 
 .main-content-title {  
   font-weight: bold;
-  font-size: 24px;
+  font-size: 36px;
   line-height: 30px;
   color: var(--title-text-color);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .section {
@@ -79,10 +81,11 @@ p {
 
 .about-me-name {  
   font-weight: bold;
-  font-size: 52px;
+  font-size: 56px;
   line-height: 60px;
   color: var(--title-text-color);
-  margin-bottom: 25px;
+  margin-bottom: 60px;
+  margin-top: 50px;
 }
 
 .about-me-description {
@@ -134,8 +137,8 @@ p {
 
 .my-work-experience-company {
   font-weight: bold;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 24px;
+  line-height: 30px;
   /* color: var(--accent-color); */
   color:#000000;
   margin-bottom: 10px;
@@ -148,8 +151,8 @@ p {
 }
 
 .my-work-experience-period {  
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 22px;
   color: var(--title-text-color);
 }
 
@@ -157,8 +160,8 @@ p {
 
 .university-name {
   font-weight: bold;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 24px;
+  line-height: 30px;
   /* color: var(--accent-color); */
   color:#000000;  
   margin-bottom: 10px;
@@ -171,17 +174,19 @@ p {
 }
 
 .education-period {
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 22px;
   color: var(--title-text-color);
   margin-bottom: 20px;
 }
 
 /* sidebar section */
 .sidebar-section {
-  background-color: var(--accent-bg-color);
-  width: 600px;
-  padding: 50px;
+  /* background-image: linear-gradient(to bottom, rgb(21, 151, 190) 50%, rgb(218, 221, 26) 50%); */
+  /* background-image: linear-gradient(to bottom, rgb(21, 151, 190), rgb(218, 221, 26)); */
+  background-color: #245a24;
+  width: 800px;
+  padding: 36px;
   color: var(--primary-bg-color);
 }
 
@@ -199,7 +204,7 @@ p {
 }
 
 .sidebar {
-  margin-left: 40px;
+  margin-left: 24px;
 }
 
 .section-title {  
